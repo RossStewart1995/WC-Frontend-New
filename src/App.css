@@ -1,0 +1,101 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body  {
+  background-color: #b3e6f3;
+  font-size: 150%;
+  font-family: monospace;
+}
+
+#logo
+{
+  font-family: Calibri, sans-serif;
+  font-weight: bolder;
+  color: #638e99;
+  margin: 0.5em;
+}
+
+#calculator
+{
+  text-align: center;
+  margin-top: 1em;
+}
+
+#display {
+  padding: 0.2em;
+  margin: 0.2em;
+  font-family: monospace;
+  letter-spacing: 0.1em;
+}
+
+.calc1 {
+  border-radius: 10px;
+  background-color: #92c7d4;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  padding: 1.5em;
+  margin: 1em;
+}
+
+.calc1:hover {
+  background-color: #6aa6b4;
+}
+
+.errorHandle {
+  color: #ff0000;
+}
+
+.errorInput {
+  background-color: "none";
+}
+
+.cancel {
+  border-radius: 10px;
+  background-color: #ce6561;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  padding: 1.5em;
+  margin: 1em;
+}
+
+.cancel:hover {
+  background-color: #bb4b47;
+}
